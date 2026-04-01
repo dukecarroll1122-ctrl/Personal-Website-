@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Randy Carroll Jr | Personal Website</title>
+    <meta
+      name="description"
+      content="Personal website for Randy Carroll Jr, Software Engineering student and aspiring IT professional."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <a class="logo" href="#top">Randy Carroll Jr</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#labs">Labs</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+      <div class="hero-content container" id="top">
+        <p class="eyebrow">Software Engineering Student</p>
+        <h1>Building practical tech skills, one project at a time.</h1>
+        <p class="hero-text">
+          I am Randy Carroll Jr, a Software Engineering student at Oakland Community College
+          focused on IT support, Linux fundamentals, and hands-on team experience.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:dukecarroll1122@gmail.com">Email Me</a>
+          <a class="btn btn-secondary" href="https://linkedin.com/in/randycarrolljr" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section container reveal" id="about">
+        <h2>About</h2>
+        <p>
+          I am currently pursuing an Associate in Applied Science in Software Engineering at
+          Oakland Community College. I enjoy combining people skills with technical problem-solving,
+          and I am actively growing my knowledge in software development and IT operations.
+        </p>
+      </section>
+
+      <section class="section container reveal" id="experience">
+        <h2>Experience</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Urban Alliance Intern - 2Timesfocus</h3>
+            <p class="meta">Detroit, MI | Oct 2024 - July 2025</p>
+            <ul>
+              <li>Managed daily administrative tasks, including phone support and email communication.</li>
+              <li>Organized meetings and maintained documentation.</li>
+              <li>Assisted in planning and execution of social media marketing campaigns.</li>
+              <li>Supported event setup and ensured proper equipment organization.</li>
+              <li>Recognized as one of 2 Urban Alliance Interns of the Year.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Summer Youth Employee - Growth Detroit Young Talent</h3>
+            <p class="meta">Detroit, MI | June 2024 - July 2024</p>
+            <ul>
+              <li>Performed operational support tasks in a team-based environment.</li>
+              <li>Maintained a safe and organized workspace while following safety procedures.</li>
+              <li>Completed assignments efficiently under time constraints.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="labs">
+        <h2>Technical Labs</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Add Users to a Group (Linux Lab)</h3>
+            <ul>
+              <li>Added users to secondary groups and verified membership using <code>/etc/group</code> and the <code>groups</code> command.</li>
+              <li>Maintained proper primary vs secondary group assignments.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Create a User Account (Linux Lab)</h3>
+            <ul>
+              <li>Created new user accounts with <code>useradd</code> and full name comments.</li>
+              <li>Set and secured user passwords.</li>
+              <li>Verified account creation in <code>/etc/passwd</code>.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Create a Group (Active Directory Lab)</h3>
+            <ul>
+              <li>Created Global Security groups in Active Directory.</li>
+              <li>Added users from multiple OUs to AD security groups.</li>
+              <li>Applied group-based access control principles.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+          <p><strong>Languages:</strong> Python, HTML/CSS, Java</p>
+          <p><strong>Tools:</strong> Visual Studio Code, Terminal</p>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="contact">
+        <h2>Contact</h2>
+        <p>Interested in connecting or collaborating? Reach out anytime.</p>
+        <div class="contact-list">
+          <a href="tel:+13136073350">313-607-3350</a>
+          <a href="mailto:dukecarroll1122@gmail.com">dukecarroll1122@gmail.com</a>
+          <a href="https://linkedin.com/in/randycarrolljr" target="_blank" rel="noreferrer">linkedin.com/in/randycarrolljr</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Randy Carroll Jr. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">Top</button>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
