@@ -24,6 +24,7 @@
         <div class="nav-links">
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
           <a href="#labs">Labs</a>
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
@@ -39,6 +40,7 @@
         <div class="hero-actions">
           <a class="btn btn-primary" href="mailto:randycarroll0711@gmail.com">Email Me</a>
           <a class="btn btn-secondary" href="https://linkedin.com/in/randycarrolljr" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn btn-secondary" href="resume.pdf" download>Download Resume</a>
         </div>
       </div>
     </header>
@@ -55,11 +57,25 @@
           This site is maintained by Randy Carroll Jr., founder of Quality Studios LLC, a
           Michigan-based creative holding company.
         </p>
+        <p>
+          <strong>Education:</strong> Associate in Applied Science, Computer Information Systems –
+          Software Engineering, Game Design Focus, Oakland Community College (Expected 2027).
+        </p>
       </section>
 
       <section class="section container reveal" id="experience">
         <h2>Experience</h2>
         <div class="card-grid">
+          <article class="card">
+            <h3>Technology Intern - Black Tech Saturdays</h3>
+            <p class="meta">Mar 2026 - Present</p>
+            <ul>
+              <li>Built and shipped an internal full-stack Python/Django web application with an HTML/CSS/JavaScript interface, integrating Greenhouse, SAM.gov, and Grants.gov APIs to automate sourcing and verification for a 200+ listing job/contract database.</li>
+              <li>Automated end-to-end cohort management by building a 6-table Airtable base with 10 email automations, custom RSVP forms, and branded email copy, streamlining applicant and speaker workflows across 3 program tracks.</li>
+              <li>Produced two AI-assisted community event guides totaling 80+ curated listings with verified RSVP links, performer lineups, and venue data to drive site traffic and establish Black Tech Saturdays as a go-to Detroit resource.</li>
+            </ul>
+          </article>
+
           <article class="card">
             <h3>Urban Alliance Intern - 2Timesfocus</h3>
             <p class="meta">Detroit, MI | Oct 2024 - July 2025</p>
@@ -79,6 +95,44 @@
               <li>Performed operational support tasks in a team-based environment.</li>
               <li>Maintained a safe and organized workspace while following safety procedures.</li>
               <li>Completed assignments efficiently under time constraints.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="projects">
+        <h2>Projects</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Storytelling</h3>
+            <p class="meta">Full Stack SaaS Application</p>
+            <ul>
+              <li>Built and deployed a full-stack SaaS writing platform using React, Node.js, Express, and PostgreSQL with cloud sync.</li>
+              <li>Integrated Stripe subscription billing with webhook event handling and Clerk authentication with multi-tenant user isolation.</li>
+              <li>Built an AI writing assistant using the Anthropic API, gated behind the Pro subscription tier.</li>
+              <li>Wrote a Vitest test suite that caught and fixed a real 500 to 400 error on POST /api/projects.</li>
+              <li>Compiled manuscripts to PDF, DOCX, and EPUB formats using jsPDF and docx libraries.</li>
+              <li>Packaged the app as a native macOS desktop app using Tauri (Rust), with custom icon, build pipeline, and installer.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>MovieMate</h3>
+            <p class="meta">Movie &amp; TV Watchlist Web App</p>
+            <ul>
+              <li>Built the frontend and backend for a full-stack web app using HTML, CSS, and JavaScript, integrating a third-party REST API to fetch and display live movie and TV data for a 5-person team.</li>
+              <li>Designed a client-side authentication and watchlist system using LocalStorage, with user accounts, sorting, and data persistence.</li>
+              <li>Diagnosed and resolved a production bug from a team merge conflict by tracing the issue through browser dev tools and Git history.</li>
+              <li>Managed GitHub version control for the team, including branching, pull requests, and deployment via GitHub Pages.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>TypeLocal</h3>
+            <p class="meta">Python, PyObjC, Ollama</p>
+            <ul>
+              <li>Built a macOS menu bar app delivering system-wide, offline predictive text suggestions powered by a locally-run LLM (Ollama), using the Accessibility API for real-time text detection across native apps.</li>
+              <li>Implemented a CGEventTap for OS-level keyboard interception and packaged the app with py2app, with zero cloud dependency.</li>
             </ul>
           </article>
         </div>
@@ -118,8 +172,14 @@
       <section class="section container reveal" id="skills">
         <h2>Skills</h2>
         <div class="skills">
-          <p><strong>Languages:</strong> Python, HTML/CSS, Java</p>
-          <p><strong>Tools:</strong> Visual Studio Code, Terminal</p>
+          <p><strong>Languages:</strong> Python, JavaScript, Java, HTML/CSS</p>
+          <p><strong>Frameworks &amp; Libraries:</strong> React, Node.js, Django, Express, Vite, TipTap</p>
+          <p><strong>Databases:</strong> PostgreSQL, Prisma</p>
+          <p><strong>Dev Tools &amp; Platforms:</strong> Git/GitHub, VS Code, Railway, Terminal, py2app</p>
+          <p><strong>AI/ML Tools:</strong> Anthropic API, Ollama, Open WebUI</p>
+          <p><strong>Payments &amp; Auth:</strong> Stripe, Clerk</p>
+          <p><strong>Desktop:</strong> Tauri (Rust)</p>
+          <p><strong>macOS/Systems:</strong> Accessibility API, CGEventTap, PyObjC, AppKit</p>
         </div>
       </section>
 
@@ -130,6 +190,7 @@
           <a href="tel:+13136073350">313-607-3350</a>
           <a href="mailto:randycarroll0711@gmail.com">randycarroll0711@gmail.com</a>
           <a href="https://linkedin.com/in/randycarrolljr" target="_blank" rel="noreferrer">linkedin.com/in/randycarrolljr</a>
+          <a href="resume.pdf" download>Download Resume (PDF)</a>
         </div>
       </section>
     </main>
